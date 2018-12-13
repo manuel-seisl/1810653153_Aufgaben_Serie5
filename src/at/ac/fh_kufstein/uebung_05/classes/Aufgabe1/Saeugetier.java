@@ -1,4 +1,4 @@
-package at.ac.fh_kufstein.uebung_05.classes;
+package at.ac.fh_kufstein.uebung_05.classes.Aufgabe1;
 
 public abstract class Saeugetier
 {
