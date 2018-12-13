@@ -8,7 +8,16 @@ public class Fahrzeug {
     private short tueren;
     private boolean gestartet;
     private short geschwindigkeit;
-    private int anzahl;
+    public static int anzahl;
+
+    public Fahrzeug(short reifen, String farbe, short ps, short tueren, boolean gestartet, short geschwindigkeit){
+        this.reifen = reifen;
+        this.farbe = farbe;
+        this.ps = ps;
+        this.tueren = tueren;
+        this.gestartet = gestartet;
+        this.geschwindigkeit = geschwindigkeit;
+    }
 
     public void starten(){
         gestartet = true;

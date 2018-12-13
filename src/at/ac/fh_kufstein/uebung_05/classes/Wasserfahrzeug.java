@@ -2,12 +2,20 @@ package at.ac.fh_kufstein.uebung_05.classes;
 
 import java.util.concurrent.TimeUnit;
 
-public class Wasserfahrzeug
+public class Wasserfahrzeug extends Fahrzeug
 {
 
     private double tiefgang;
     private short schrauben;
     private double ladung;
+
+    public Wasserfahrzeug(short reifen, String farbe, short ps, short tueren, boolean gestartet, short geschwindigkeit, double tiefgang, short schrauben, double ladung){
+        super(reifen, farbe, ps, tueren, false, (short)0);
+        this.tiefgang = tiefgang;
+        this.schrauben = schrauben;
+        this.ladung = ladung;
+        anzahl += 1;
+    }
 
     public void entladen(){
 
