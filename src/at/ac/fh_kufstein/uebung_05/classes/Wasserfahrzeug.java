@@ -19,8 +19,6 @@ public class Wasserfahrzeug
             e.printStackTrace();
         }
 
-        System.out.println("Test");
-
     }
 
 }
