@@ -34,4 +34,60 @@ public class Fahrzeug {
 
     }
 
+    public short getReifen(){
+        return reifen;
+    }
+
+    public void setReifen(short reifen){
+        this.reifen = reifen;
+    }
+
+    public String getFarbe(){
+        return farbe;
+    }
+
+    public void setFarbe(String farbe){
+        this.farbe = farbe;
+    }
+
+    public short getPs() {
+        return ps;
+    }
+
+    public void setPs(short ps){
+        this.ps = ps;
+    }
+
+    public short getTueren(){
+        return tueren;
+    }
+
+    public void setTueren(short tueren){
+        this.tueren = tueren;
+    }
+
+    public boolean isGestartet(){
+        return gestartet;
+    }
+
+    public void setGestartet(boolean gestartet){
+        this.gestartet = gestartet;
+    }
+
+    public short getGeschwindigkeit(){
+        return geschwindigkeit;
+    }
+
+    public void setGeschwindigkeit(short geschwindigkeit){
+        this.geschwindigkeit = geschwindigkeit;
+    }
+
+    public int getAnzahl(){
+        return anzahl;
+    }
+
+    public void setAnzahl(int anzahl){
+        this.anzahl = anzahl;
+    }
+
 }
