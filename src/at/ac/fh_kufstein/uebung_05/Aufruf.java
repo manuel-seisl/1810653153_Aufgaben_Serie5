@@ -5,16 +5,27 @@ import at.ac.fh_kufstein.uebung_05.classes.Fahrzeug;
 import at.ac.fh_kufstein.uebung_05.classes.Wasserfahrzeug;
 import com.sun.codemodel.internal.JOp;
 
+<<<<<<< HEAD
 import javax.swing.*;
 import java.lang.reflect.Array;
 import java.util.*;
+=======
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+>>>>>>> c725cf76406246e3be77b8e79d8d1d81a4772830
 
 public class Aufruf
 {
 
     public static void main(String[] args){
 
+<<<<<<< HEAD
         /*List<Auto> fahrzeugList = new ArrayList<>();
+=======
+        List<Auto> fahrzeugList = new ArrayList<>();
+>>>>>>> c725cf76406246e3be77b8e79d8d1d81a4772830
 
         fahrzeugList.add(new Auto((short)4, "silber", (short)100, (short)5, false, (short)0, false, (short)4));
         fahrzeugList.add(new Auto((short)4, "schwarz", (short)180, (short)5, false, (short)0, false, (short)8));
@@ -26,6 +37,7 @@ public class Aufruf
 
         for ( Auto a : fahrzeugList ){
             System.out.println(a.toString());
+<<<<<<< HEAD
         };*/
 
         // --- Aufgabe 4 ---
@@ -51,6 +63,9 @@ public class Aufruf
             list.add(item);
 
         }
+=======
+        };
+>>>>>>> c725cf76406246e3be77b8e79d8d1d81a4772830
 
         System.out.println("Es wurde kein gleicher Text eingegeben!");
 
