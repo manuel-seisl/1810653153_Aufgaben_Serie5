@@ -18,12 +18,20 @@ public class Fahrzeug {
     public static int anzahl;
 
     public Fahrzeug(short reifen, Color color, short ps, short tueren, boolean gestartet, short geschwindigkeit){
+
         this.reifen = reifen;
-        this.color = color;
+
+        if (color != null){
+            this.color = color;
+        } else {
+            this.color = Color.RED;
+        }
+
         this.ps = ps;
         this.tueren = tueren;
         this.gestartet = gestartet;
         this.geschwindigkeit = geschwindigkeit;
+
     }
 
     public void starten(){
